@@ -12,8 +12,7 @@ A SHA-256 hardware hashing module written in SystemVerilog, synthesized with Int
 
 *Time per hash = cycles ÷ Fmax. The third version's cycle count comes from simulation; it hasn't been re-synthesized yet.*
 
-![ModelSim transcripts: 216 vs. 186 cycles, all hashes correct](docs/images/transcripts-216-vs-186.png)
-![ModelSim transcript: 165 cycles, all hashes correct](docs/images/transcript-165.png)
+![ModelSim transcripts: 216 vs. 186 vs. 165 cycles, all hashes correct](docs/images/transcripts-216-186-165.png)
 
 ## How the design works
 
