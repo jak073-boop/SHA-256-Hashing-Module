@@ -10,7 +10,7 @@ A SHA-256 hardware hashing module written in SystemVerilog, synthesized with Int
 | + Single-cycle BLOCK load | 186 | 2,064 (+13.6%) | 1,743 | 172.44 MHz | 1.08 µs |
 | + Pipelined READ and no COMPUTE bubble | ~165 | 2,076 (+0.6%) | 1,751 | – | – |
 
-*Time per hash = cycles ÷ Fmax. The third version's cycle count comes from simulation; it hasn't been re-synthesized yet.*
+*Time per hash = cycles ÷ Fmax. Fmax and Time per hash will be complete.*
 
 ![ModelSim transcripts: 216 vs. 186 vs. 165 cycles, all hashes correct](docs/images/transcripts-216-186-165.png)
 
