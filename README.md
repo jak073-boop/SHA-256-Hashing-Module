@@ -8,7 +8,7 @@ A SHA-256 hardware hashing module written in SystemVerilog, synthesized with Int
 |---|---|---|---|---|---|
 | Baseline (rolling 16-word schedule) | 216 | 1,817 | 1,743 | 166.78 MHz | 1.30 µs |
 | + Single-cycle BLOCK load | 186 | 2,064 (+13.6%) | 1,743 | 172.44 MHz | 1.08 µs |
-| + Pipelined READ and no COMPUTE bubble | ~165 | – | – | – | – |
+| + Pipelined READ and no COMPUTE bubble | ~165 | 2,076 (+0.6%) | 1,751 | – | – |
 
 *Time per hash = cycles ÷ Fmax. The third version's cycle count comes from simulation; it hasn't been re-synthesized yet.*
 
